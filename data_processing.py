@@ -3,15 +3,15 @@ import streamlit as st
 import pandas as pd
 import os
 
-# Nomes dos novos arquivos LEVÍSSIMOS
-ARQUIVO_ANAC = "ANAC_CAPITAIS_MENSAL.csv"
-ARQUIVO_INMET = "INMET_CAPITAIS_MENSAL.csv"
+# Nomes dos novos arquivos LEVES baseados em CIDADE
+ARQUIVO_ANAC = "ANAC_CAPITAIS_CIDADE_MENSAL.csv"
+ARQUIVO_INMET = "INMET_CAPITAIS_CIDADE_MENSAL.csv"
 ARQUIVO_IPCA = "IPCAUNIFICADO.csv"
 
 @st.cache_data
 def carregar_dados_completos():
     """
-    Carrega os arquivos CSV LEVES e PRÉ-AGREGADOS da pasta 'pages'.
+    Carrega os arquivos CSV LEVES e PRÉ-AGREGADOS POR CIDADE.
     """
     
     # --- 1. Carregar Dados Pré-Agregados ---
@@ -27,12 +27,16 @@ def carregar_dados_completos():
         
     except FileNotFoundError as e:
         st.error(f"Erro Crítico: Arquivo não encontrado na pasta 'pages' -> {e.filename}")
-        st.info(f"Certifique-se de que '{ARQUIVO_ANAC}', '{ARQUIVO_INMET}' e '{ARQUIVO_IPCA}' estão na pasta 'pages'.")
         return None, None, None
 
     # --- 2. Integrar ANAC + INMET ---
-    # Os dados já estão agregados, então o merge é direto
-    df_integrado = pd.merge(df_anac_mensal, df_inmet_mensal, on=['UF', 'ANO', 'MES'], how='inner')
+    # A chave do merge agora é 'DESTINO' (a cidade)
+    df_integrado = pd.merge(
+        df_anac_mensal, 
+        df_inmet_mensal, 
+        on=['DESTINO', 'ANO', 'MES'], # <- MUDANÇA IMPORTANTE
+        how='inner'
+    )
     if df_integrado.empty:
         st.warning("A integração ANAC+INMET não encontrou dados correspondentes.")
     
@@ -45,5 +49,4 @@ def carregar_dados_completos():
         df_ipca_tarifa['DATA'] = pd.to_datetime(df_ipca_tarifa['ANO'].astype(str) + '-' + df_ipca_tarifa['MES'].astype(str))
 
     # Retorna os 3 DataFrames
-    # O "df_anac_mensal" será usado na Tabela 1
     return df_anac_mensal, df_integrado, df_ipca_tarifa
