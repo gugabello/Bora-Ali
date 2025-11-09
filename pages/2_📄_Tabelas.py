@@ -4,7 +4,7 @@ from data_processing import carregar_dados_completos
 
 st.set_page_config(layout="wide")
 st.title("📄 Tabelas de Dados")
-st.markdown("Dados filtrados e pré-agregados para **São Paulo, Rio de Janeiro, Recife e Brasília**.")
+st.markdown("Dados filtrados e pré-agregados por **Cidade**.")
 
 # --- Helper de Paginação ---
 def mostrar_tabela_paginada(df, key_prefix):
@@ -21,12 +21,12 @@ def mostrar_tabela_paginada(df, key_prefix):
 # --- Carregar Dados e Exibir Tabelas ---
 df_anac_mensal, df_integrado, df_ipca = carregar_dados_completos()
 
-st.header("1. Tabela de Tarifa Média (ANAC Pré-Agregada)")
-st.markdown("Média mensal de tarifa da ANAC (arquivo `ANAC_CAPITAIS_MENSAL.csv`).")
+st.header("1. Tabela de Tarifa Média por Cidade (ANAC)")
+st.markdown("Média mensal de tarifa da ANAC (arquivo `ANAC_CAPITAIS_CIDADE_MENSAL.csv`).")
 mostrar_tabela_paginada(df_anac_mensal, "anac")
 
 st.header("2. Tabela Integrada (ANAC + INMET)")
-st.markdown("Média mensal de tarifa e temperatura (arquivo `INMET_CAPITAIS_MENSAL.csv` integrado).")
+st.markdown("Média mensal de tarifa e temperatura por cidade.")
 mostrar_tabela_paginada(df_integrado, "integrado")
 
 st.header("3. Tabela de Inflação (IPCA vs. Tarifa Média)")
