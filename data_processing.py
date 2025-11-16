@@ -3,15 +3,23 @@ import streamlit as st
 import pandas as pd
 import os
 
-# Nomes dos novos arquivos LEVES baseados em CIDADE
-ARQUIVO_ANAC = "ANAC_CAPITAIS_CIDADE_MENSAL.csv"
-ARQUIVO_INMET = "INMET_CAPITAIS_CIDADE_MENSAL.csv"
+# Nomes dos novos arquivos LEVES baseados em UF
+ARQUIVO_ANAC = "ANAC_CAPITAIS_UF_MENSAL.csv"
+ARQUIVO_INMET = "INMET_CAPITAIS_UF_MENSAL.csv"
 ARQUIVO_IPCA = "IPCAUNIFICADO.csv"
+
+# O mapa de "tradução" que usaremos no final
+MAPA_UF_PARA_CIDADE = {
+    'SP': 'São Paulo',
+    'RJ': 'Rio de Janeiro',
+    'PE': 'Recife',
+    'DF': 'Brasília'
+}
 
 @st.cache_data
 def carregar_dados_completos():
     """
-    Carrega os arquivos CSV LEVES e PRÉ-AGREGADOS POR CIDADE.
+    Carrega os arquivos CSV LEVES e PRÉ-AGREGADOS POR UF.
     """
     
     # --- 1. Carregar Dados Pré-Agregados ---
@@ -29,18 +37,25 @@ def carregar_dados_completos():
         st.error(f"Erro Crítico: Arquivo não encontrado na pasta 'pages' -> {e.filename}")
         return None, None, None
 
-    # --- 2. Integrar ANAC + INMET ---
-    # A chave do merge agora é 'DESTINO' (a cidade)
+    # --- 2. Integrar ANAC + INMET (A chave é a UF) ---
     df_integrado = pd.merge(
         df_anac_mensal, 
         df_inmet_mensal, 
-        on=['DESTINO', 'ANO', 'MES'], # <- MUDANÇA IMPORTANTE
+        on=['UF', 'ANO', 'MES'], # <- A chave confiável
         how='inner'
     )
     if df_integrado.empty:
         st.warning("A integração ANAC+INMET não encontrou dados correspondentes.")
+        
+    # === A MÁGICA ===
+    # 3. Criar a coluna CIDADE a partir da UF
+    # Adicionamos 'CIDADE' ao df_anac_mensal para a Tabela 1
+    df_anac_mensal['CIDADE'] = df_anac_mensal['UF'].map(MAPA_UF_PARA_CIDADE)
+    # Adicionamos 'CIDADE' ao df_integrado para as Tabelas 2 e Gráficos
+    df_integrado['CIDADE'] = df_integrado['UF'].map(MAPA_UF_PARA_CIDADE)
+    # === FIM DA MÁGICA ===
     
-    # --- 3. Integrar IPCA ---
+    # --- 4. Integrar IPCA ---
     df_ipca_tarifa = None
     if not df_integrado.empty:
         tarifa_media_nacional = df_integrado.groupby(['ANO', 'MES'])['TARIFA'].mean().reset_index()
