@@ -4,7 +4,7 @@ from data_processing import carregar_dados_completos
 
 st.set_page_config(layout="wide")
 st.title("📄 Tabelas de Dados")
-st.markdown("Dados filtrados e pré-agregados para **São Paulo, Rio de Janeiro, Recife e Brasília**.")
+st.markdown("Dados filtrados e pré-agregados para todas as capitais brasleiras.")
 
 # --- Helper de Paginação ---
 def mostrar_tabela_paginada(df, key_prefix):

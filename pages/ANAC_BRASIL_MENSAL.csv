@@ -1,0 +1,662 @@
+UF,ANO,MES,TARIFA,CIDADE
+AC,2023,1,989.97,Rio Branco
+AC,2023,2,957.59,Rio Branco
+AC,2023,3,997.76,Rio Branco
+AC,2023,4,929.48,Rio Branco
+AC,2023,8,1087.38,Rio Branco
+AC,2023,9,1122.63,Rio Branco
+AC,2023,10,1175.11,Rio Branco
+AC,2023,11,1127.81,Rio Branco
+AC,2023,12,1127.97,Rio Branco
+AC,2024,1,1059.24,Rio Branco
+AC,2024,2,979.72,Rio Branco
+AC,2024,3,1034.56,Rio Branco
+AC,2024,4,952.2,Rio Branco
+AC,2024,5,999.16,Rio Branco
+AC,2024,6,962.39,Rio Branco
+AC,2024,7,1022.33,Rio Branco
+AC,2024,8,1012.21,Rio Branco
+AC,2024,9,956.18,Rio Branco
+AC,2024,10,1002.32,Rio Branco
+AC,2024,11,1072.91,Rio Branco
+AC,2024,12,1093.9,Rio Branco
+AC,2025,3,1260.58,Rio Branco
+AC,2025,4,1189.36,Rio Branco
+AC,2025,5,1185.04,Rio Branco
+AC,2025,6,1249.94,Rio Branco
+AC,2025,7,1366.99,Rio Branco
+AL,2023,1,927.89,Maceió
+AL,2023,2,934.19,Maceió
+AL,2023,3,952.14,Maceió
+AL,2023,4,879.0,Maceió
+AL,2023,8,969.32,Maceió
+AL,2023,9,1048.52,Maceió
+AL,2023,10,1048.95,Maceió
+AL,2023,11,1004.6,Maceió
+AL,2023,12,944.72,Maceió
+AL,2024,1,904.47,Maceió
+AL,2024,2,897.5,Maceió
+AL,2024,3,935.0,Maceió
+AL,2024,4,851.11,Maceió
+AL,2024,5,796.82,Maceió
+AL,2024,6,845.94,Maceió
+AL,2024,7,885.29,Maceió
+AL,2024,8,883.42,Maceió
+AL,2024,9,927.72,Maceió
+AL,2024,10,944.87,Maceió
+AL,2024,11,971.32,Maceió
+AL,2024,12,938.89,Maceió
+AL,2025,3,1063.47,Maceió
+AL,2025,4,946.92,Maceió
+AL,2025,5,857.68,Maceió
+AL,2025,6,921.35,Maceió
+AL,2025,7,1113.49,Maceió
+AM,2023,1,926.56,Manaus
+AM,2023,2,936.81,Manaus
+AM,2023,3,910.05,Manaus
+AM,2023,4,884.38,Manaus
+AM,2023,8,1013.23,Manaus
+AM,2023,9,1046.57,Manaus
+AM,2023,10,1041.96,Manaus
+AM,2023,11,977.18,Manaus
+AM,2023,12,953.3,Manaus
+AM,2024,1,925.32,Manaus
+AM,2024,2,810.23,Manaus
+AM,2024,3,826.01,Manaus
+AM,2024,4,751.03,Manaus
+AM,2024,5,727.51,Manaus
+AM,2024,6,778.47,Manaus
+AM,2024,7,822.59,Manaus
+AM,2024,8,807.79,Manaus
+AM,2024,9,799.05,Manaus
+AM,2024,10,791.71,Manaus
+AM,2024,11,839.74,Manaus
+AM,2024,12,885.74,Manaus
+AM,2025,3,954.29,Manaus
+AM,2025,4,847.07,Manaus
+AM,2025,5,864.49,Manaus
+AM,2025,6,1053.11,Manaus
+AM,2025,7,1169.63,Manaus
+AP,2023,1,701.36,Macapá
+AP,2023,2,778.6,Macapá
+AP,2023,3,805.48,Macapá
+AP,2023,4,777.25,Macapá
+AP,2023,8,840.35,Macapá
+AP,2023,9,868.92,Macapá
+AP,2023,10,927.78,Macapá
+AP,2023,11,988.59,Macapá
+AP,2023,12,915.88,Macapá
+AP,2024,1,877.77,Macapá
+AP,2024,2,798.88,Macapá
+AP,2024,3,720.15,Macapá
+AP,2024,4,718.88,Macapá
+AP,2024,5,682.35,Macapá
+AP,2024,6,715.26,Macapá
+AP,2024,7,821.27,Macapá
+AP,2024,8,807.03,Macapá
+AP,2024,9,830.92,Macapá
+AP,2024,10,848.22,Macapá
+AP,2024,11,956.73,Macapá
+AP,2024,12,963.95,Macapá
+AP,2025,3,890.62,Macapá
+AP,2025,4,807.38,Macapá
+AP,2025,5,812.21,Macapá
+AP,2025,6,990.41,Macapá
+AP,2025,7,1248.07,Macapá
+BA,2023,1,800.31,Salvador
+BA,2023,2,771.03,Salvador
+BA,2023,3,819.79,Salvador
+BA,2023,4,774.54,Salvador
+BA,2023,8,809.62,Salvador
+BA,2023,9,842.91,Salvador
+BA,2023,10,825.0,Salvador
+BA,2023,11,811.82,Salvador
+BA,2023,12,801.37,Salvador
+BA,2024,1,773.47,Salvador
+BA,2024,2,684.39,Salvador
+BA,2024,3,736.43,Salvador
+BA,2024,4,679.24,Salvador
+BA,2024,5,635.88,Salvador
+BA,2024,6,711.77,Salvador
+BA,2024,7,739.4,Salvador
+BA,2024,8,724.93,Salvador
+BA,2024,9,800.07,Salvador
+BA,2024,10,832.78,Salvador
+BA,2024,11,836.98,Salvador
+BA,2024,12,833.46,Salvador
+BA,2025,3,825.43,Salvador
+BA,2025,4,802.73,Salvador
+BA,2025,5,731.83,Salvador
+BA,2025,6,851.19,Salvador
+BA,2025,7,894.93,Salvador
+CE,2023,1,808.81,Fortaleza
+CE,2023,2,818.07,Fortaleza
+CE,2023,3,847.82,Fortaleza
+CE,2023,4,805.09,Fortaleza
+CE,2023,8,882.7,Fortaleza
+CE,2023,9,907.19,Fortaleza
+CE,2023,10,929.9,Fortaleza
+CE,2023,11,931.87,Fortaleza
+CE,2023,12,871.54,Fortaleza
+CE,2024,1,825.85,Fortaleza
+CE,2024,2,775.94,Fortaleza
+CE,2024,3,864.98,Fortaleza
+CE,2024,4,809.22,Fortaleza
+CE,2024,5,796.07,Fortaleza
+CE,2024,6,829.2,Fortaleza
+CE,2024,7,853.12,Fortaleza
+CE,2024,8,839.7,Fortaleza
+CE,2024,9,889.38,Fortaleza
+CE,2024,10,943.16,Fortaleza
+CE,2024,11,959.29,Fortaleza
+CE,2024,12,898.05,Fortaleza
+CE,2025,3,912.15,Fortaleza
+CE,2025,4,851.06,Fortaleza
+CE,2025,5,815.86,Fortaleza
+CE,2025,6,981.3,Fortaleza
+CE,2025,7,1104.56,Fortaleza
+DF,2023,1,693.34,Brasília
+DF,2023,2,688.34,Brasília
+DF,2023,3,749.28,Brasília
+DF,2023,4,701.92,Brasília
+DF,2023,8,765.54,Brasília
+DF,2023,9,812.68,Brasília
+DF,2023,10,870.29,Brasília
+DF,2023,11,797.01,Brasília
+DF,2023,12,744.53,Brasília
+DF,2024,1,741.43,Brasília
+DF,2024,2,647.26,Brasília
+DF,2024,3,739.97,Brasília
+DF,2024,4,682.53,Brasília
+DF,2024,5,685.23,Brasília
+DF,2024,6,711.57,Brasília
+DF,2024,7,721.07,Brasília
+DF,2024,8,697.2,Brasília
+DF,2024,9,713.82,Brasília
+DF,2024,10,766.22,Brasília
+DF,2024,11,766.49,Brasília
+DF,2024,12,785.86,Brasília
+DF,2025,3,827.11,Brasília
+DF,2025,4,798.9,Brasília
+DF,2025,5,744.98,Brasília
+DF,2025,6,901.99,Brasília
+DF,2025,7,986.98,Brasília
+ES,2023,1,683.1,Vitória
+ES,2023,2,678.42,Vitória
+ES,2023,3,695.93,Vitória
+ES,2023,4,621.84,Vitória
+ES,2023,8,678.08,Vitória
+ES,2023,9,767.75,Vitória
+ES,2023,10,823.56,Vitória
+ES,2023,11,870.94,Vitória
+ES,2023,12,890.46,Vitória
+ES,2024,1,827.67,Vitória
+ES,2024,2,714.69,Vitória
+ES,2024,3,718.07,Vitória
+ES,2024,4,646.73,Vitória
+ES,2024,5,618.32,Vitória
+ES,2024,6,671.59,Vitória
+ES,2024,7,724.19,Vitória
+ES,2024,8,729.64,Vitória
+ES,2024,9,767.36,Vitória
+ES,2024,10,784.08,Vitória
+ES,2024,11,785.55,Vitória
+ES,2024,12,772.94,Vitória
+ES,2025,3,720.0,Vitória
+ES,2025,4,701.58,Vitória
+ES,2025,5,659.37,Vitória
+ES,2025,6,719.98,Vitória
+ES,2025,7,822.19,Vitória
+GO,2023,1,729.96,Goiânia
+GO,2023,2,748.4,Goiânia
+GO,2023,3,770.76,Goiânia
+GO,2023,4,732.59,Goiânia
+GO,2023,8,780.72,Goiânia
+GO,2023,9,819.92,Goiânia
+GO,2023,10,829.27,Goiânia
+GO,2023,11,804.98,Goiânia
+GO,2023,12,807.01,Goiânia
+GO,2024,1,775.86,Goiânia
+GO,2024,2,713.84,Goiânia
+GO,2024,3,772.97,Goiânia
+GO,2024,4,736.83,Goiânia
+GO,2024,5,688.46,Goiânia
+GO,2024,6,752.48,Goiânia
+GO,2024,7,800.72,Goiânia
+GO,2024,8,790.86,Goiânia
+GO,2024,9,764.39,Goiânia
+GO,2024,10,778.96,Goiânia
+GO,2024,11,794.71,Goiânia
+GO,2024,12,773.73,Goiânia
+GO,2025,3,720.01,Goiânia
+GO,2025,4,713.8,Goiânia
+GO,2025,5,684.38,Goiânia
+GO,2025,6,800.42,Goiânia
+GO,2025,7,899.43,Goiânia
+MA,2023,1,745.33,São Luís
+MA,2023,2,827.68,São Luís
+MA,2023,3,836.07,São Luís
+MA,2023,4,808.07,São Luís
+MA,2023,8,955.84,São Luís
+MA,2023,9,935.5,São Luís
+MA,2023,10,893.75,São Luís
+MA,2023,11,906.32,São Luís
+MA,2023,12,852.13,São Luís
+MA,2024,1,801.66,São Luís
+MA,2024,2,762.79,São Luís
+MA,2024,3,769.15,São Luís
+MA,2024,4,753.1,São Luís
+MA,2024,5,810.14,São Luís
+MA,2024,6,904.54,São Luís
+MA,2024,7,942.78,São Luís
+MA,2024,8,855.04,São Luís
+MA,2024,9,826.47,São Luís
+MA,2024,10,793.63,São Luís
+MA,2024,11,863.52,São Luís
+MA,2024,12,814.9,São Luís
+MA,2025,3,849.97,São Luís
+MA,2025,4,816.05,São Luís
+MA,2025,5,887.93,São Luís
+MA,2025,6,1151.82,São Luís
+MA,2025,7,1305.19,São Luís
+MG,2023,1,749.62,Belo Horizonte
+MG,2023,2,722.93,Belo Horizonte
+MG,2023,3,762.14,Belo Horizonte
+MG,2023,4,727.08,Belo Horizonte
+MG,2023,8,765.46,Belo Horizonte
+MG,2023,9,796.7,Belo Horizonte
+MG,2023,10,825.19,Belo Horizonte
+MG,2023,11,816.77,Belo Horizonte
+MG,2023,12,772.94,Belo Horizonte
+MG,2024,1,757.44,Belo Horizonte
+MG,2024,2,668.81,Belo Horizonte
+MG,2024,3,676.55,Belo Horizonte
+MG,2024,4,642.41,Belo Horizonte
+MG,2024,5,621.1,Belo Horizonte
+MG,2024,6,656.96,Belo Horizonte
+MG,2024,7,679.96,Belo Horizonte
+MG,2024,8,660.72,Belo Horizonte
+MG,2024,9,720.18,Belo Horizonte
+MG,2024,10,746.41,Belo Horizonte
+MG,2024,11,782.16,Belo Horizonte
+MG,2024,12,769.91,Belo Horizonte
+MG,2025,3,751.09,Belo Horizonte
+MG,2025,4,750.68,Belo Horizonte
+MG,2025,5,697.03,Belo Horizonte
+MG,2025,6,761.58,Belo Horizonte
+MG,2025,7,871.74,Belo Horizonte
+MS,2023,1,722.32,Campo Grande
+MS,2023,2,761.17,Campo Grande
+MS,2023,3,785.15,Campo Grande
+MS,2023,4,764.61,Campo Grande
+MS,2023,8,858.98,Campo Grande
+MS,2023,9,886.59,Campo Grande
+MS,2023,10,878.7,Campo Grande
+MS,2023,11,863.9,Campo Grande
+MS,2023,12,853.86,Campo Grande
+MS,2024,1,820.06,Campo Grande
+MS,2024,2,784.9,Campo Grande
+MS,2024,3,856.3,Campo Grande
+MS,2024,4,801.78,Campo Grande
+MS,2024,5,734.11,Campo Grande
+MS,2024,6,768.43,Campo Grande
+MS,2024,7,814.7,Campo Grande
+MS,2024,8,709.53,Campo Grande
+MS,2024,9,696.95,Campo Grande
+MS,2024,10,747.27,Campo Grande
+MS,2024,11,753.37,Campo Grande
+MS,2024,12,739.67,Campo Grande
+MS,2025,3,749.69,Campo Grande
+MS,2025,4,784.74,Campo Grande
+MS,2025,5,772.4,Campo Grande
+MS,2025,6,868.01,Campo Grande
+MS,2025,7,1003.84,Campo Grande
+MT,2023,1,774.53,Cuiabá
+MT,2023,2,789.74,Cuiabá
+MT,2023,3,805.21,Cuiabá
+MT,2023,4,811.94,Cuiabá
+MT,2023,8,941.52,Cuiabá
+MT,2023,9,941.85,Cuiabá
+MT,2023,10,921.67,Cuiabá
+MT,2023,11,933.64,Cuiabá
+MT,2023,12,922.36,Cuiabá
+MT,2024,1,841.05,Cuiabá
+MT,2024,2,794.09,Cuiabá
+MT,2024,3,802.18,Cuiabá
+MT,2024,4,757.51,Cuiabá
+MT,2024,5,676.52,Cuiabá
+MT,2024,6,719.0,Cuiabá
+MT,2024,7,769.8,Cuiabá
+MT,2024,8,720.57,Cuiabá
+MT,2024,9,694.65,Cuiabá
+MT,2024,10,724.82,Cuiabá
+MT,2024,11,795.88,Cuiabá
+MT,2024,12,841.68,Cuiabá
+MT,2025,3,767.88,Cuiabá
+MT,2025,4,766.15,Cuiabá
+MT,2025,5,729.03,Cuiabá
+MT,2025,6,887.5,Cuiabá
+MT,2025,7,1090.62,Cuiabá
+PA,2023,1,804.35,Belém
+PA,2023,2,807.57,Belém
+PA,2023,3,819.09,Belém
+PA,2023,4,794.85,Belém
+PA,2023,8,885.56,Belém
+PA,2023,9,896.6,Belém
+PA,2023,10,884.12,Belém
+PA,2023,11,896.37,Belém
+PA,2023,12,827.74,Belém
+PA,2024,1,788.85,Belém
+PA,2024,2,706.92,Belém
+PA,2024,3,714.57,Belém
+PA,2024,4,711.29,Belém
+PA,2024,5,691.43,Belém
+PA,2024,6,737.37,Belém
+PA,2024,7,755.32,Belém
+PA,2024,8,740.43,Belém
+PA,2024,9,762.04,Belém
+PA,2024,10,779.62,Belém
+PA,2024,11,883.44,Belém
+PA,2024,12,874.17,Belém
+PA,2025,3,776.88,Belém
+PA,2025,4,721.45,Belém
+PA,2025,5,718.43,Belém
+PA,2025,6,1008.82,Belém
+PA,2025,7,1152.51,Belém
+PB,2023,1,874.33,João Pessoa
+PB,2023,2,835.9,João Pessoa
+PB,2023,3,851.71,João Pessoa
+PB,2023,4,780.23,João Pessoa
+PB,2023,8,842.62,João Pessoa
+PB,2023,9,916.67,João Pessoa
+PB,2023,10,949.9,João Pessoa
+PB,2023,11,945.28,João Pessoa
+PB,2023,12,888.73,João Pessoa
+PB,2024,1,837.53,João Pessoa
+PB,2024,2,797.84,João Pessoa
+PB,2024,3,823.44,João Pessoa
+PB,2024,4,753.69,João Pessoa
+PB,2024,5,777.47,João Pessoa
+PB,2024,6,800.58,João Pessoa
+PB,2024,7,817.3,João Pessoa
+PB,2024,8,836.96,João Pessoa
+PB,2024,9,895.36,João Pessoa
+PB,2024,10,957.62,João Pessoa
+PB,2024,11,940.06,João Pessoa
+PB,2024,12,919.13,João Pessoa
+PB,2025,3,910.24,João Pessoa
+PB,2025,4,893.19,João Pessoa
+PB,2025,5,884.19,João Pessoa
+PB,2025,6,999.57,João Pessoa
+PB,2025,7,1006.16,João Pessoa
+PE,2023,1,850.37,Recife
+PE,2023,2,826.88,Recife
+PE,2023,3,850.67,Recife
+PE,2023,4,806.74,Recife
+PE,2023,8,850.88,Recife
+PE,2023,9,893.28,Recife
+PE,2023,10,903.41,Recife
+PE,2023,11,855.89,Recife
+PE,2023,12,805.32,Recife
+PE,2024,1,812.22,Recife
+PE,2024,2,768.77,Recife
+PE,2024,3,799.02,Recife
+PE,2024,4,767.2,Recife
+PE,2024,5,733.72,Recife
+PE,2024,6,806.18,Recife
+PE,2024,7,780.04,Recife
+PE,2024,8,764.12,Recife
+PE,2024,9,859.89,Recife
+PE,2024,10,897.53,Recife
+PE,2024,11,945.64,Recife
+PE,2024,12,925.51,Recife
+PE,2025,3,869.27,Recife
+PE,2025,4,794.48,Recife
+PE,2025,5,725.3,Recife
+PE,2025,6,864.86,Recife
+PE,2025,7,993.17,Recife
+PI,2023,1,833.68,Teresina
+PI,2023,2,834.74,Teresina
+PI,2023,3,819.78,Teresina
+PI,2023,4,795.05,Teresina
+PI,2023,8,912.58,Teresina
+PI,2023,9,988.42,Teresina
+PI,2023,10,998.28,Teresina
+PI,2023,11,973.99,Teresina
+PI,2023,12,837.54,Teresina
+PI,2024,1,785.71,Teresina
+PI,2024,2,756.11,Teresina
+PI,2024,3,864.58,Teresina
+PI,2024,4,865.25,Teresina
+PI,2024,5,815.73,Teresina
+PI,2024,6,895.86,Teresina
+PI,2024,7,908.42,Teresina
+PI,2024,8,815.66,Teresina
+PI,2024,9,905.16,Teresina
+PI,2024,10,897.27,Teresina
+PI,2024,11,993.23,Teresina
+PI,2024,12,876.18,Teresina
+PI,2025,3,861.01,Teresina
+PI,2025,4,834.18,Teresina
+PI,2025,5,881.3,Teresina
+PI,2025,6,1133.79,Teresina
+PI,2025,7,1169.98,Teresina
+PR,2023,1,755.17,Curitiba
+PR,2023,2,733.75,Curitiba
+PR,2023,3,767.36,Curitiba
+PR,2023,4,706.32,Curitiba
+PR,2023,8,760.81,Curitiba
+PR,2023,9,801.33,Curitiba
+PR,2023,10,828.48,Curitiba
+PR,2023,11,816.32,Curitiba
+PR,2023,12,782.57,Curitiba
+PR,2024,1,768.82,Curitiba
+PR,2024,2,673.81,Curitiba
+PR,2024,3,705.27,Curitiba
+PR,2024,4,683.56,Curitiba
+PR,2024,5,633.25,Curitiba
+PR,2024,6,673.98,Curitiba
+PR,2024,7,727.6,Curitiba
+PR,2024,8,721.67,Curitiba
+PR,2024,9,749.37,Curitiba
+PR,2024,10,761.84,Curitiba
+PR,2024,11,776.92,Curitiba
+PR,2024,12,760.78,Curitiba
+PR,2025,3,782.42,Curitiba
+PR,2025,4,740.97,Curitiba
+PR,2025,5,692.67,Curitiba
+PR,2025,6,784.62,Curitiba
+PR,2025,7,887.58,Curitiba
+RJ,2023,1,725.73,Rio de Janeiro
+RJ,2023,2,702.86,Rio de Janeiro
+RJ,2023,3,740.0,Rio de Janeiro
+RJ,2023,4,691.62,Rio de Janeiro
+RJ,2023,8,714.72,Rio de Janeiro
+RJ,2023,9,762.56,Rio de Janeiro
+RJ,2023,10,820.61,Rio de Janeiro
+RJ,2023,11,800.02,Rio de Janeiro
+RJ,2023,12,814.8,Rio de Janeiro
+RJ,2024,1,800.22,Rio de Janeiro
+RJ,2024,2,692.52,Rio de Janeiro
+RJ,2024,3,704.35,Rio de Janeiro
+RJ,2024,4,629.73,Rio de Janeiro
+RJ,2024,5,615.52,Rio de Janeiro
+RJ,2024,6,655.08,Rio de Janeiro
+RJ,2024,7,668.32,Rio de Janeiro
+RJ,2024,8,658.04,Rio de Janeiro
+RJ,2024,9,708.74,Rio de Janeiro
+RJ,2024,10,741.5,Rio de Janeiro
+RJ,2024,11,770.37,Rio de Janeiro
+RJ,2024,12,777.19,Rio de Janeiro
+RJ,2025,3,761.95,Rio de Janeiro
+RJ,2025,4,743.19,Rio de Janeiro
+RJ,2025,5,705.79,Rio de Janeiro
+RJ,2025,6,792.12,Rio de Janeiro
+RJ,2025,7,889.4,Rio de Janeiro
+RN,2023,1,842.25,Natal
+RN,2023,2,843.49,Natal
+RN,2023,3,876.53,Natal
+RN,2023,4,842.78,Natal
+RN,2023,8,960.05,Natal
+RN,2023,9,1038.32,Natal
+RN,2023,10,1026.23,Natal
+RN,2023,11,1001.27,Natal
+RN,2023,12,946.03,Natal
+RN,2024,1,881.19,Natal
+RN,2024,2,834.33,Natal
+RN,2024,3,878.72,Natal
+RN,2024,4,806.88,Natal
+RN,2024,5,790.85,Natal
+RN,2024,6,824.46,Natal
+RN,2024,7,815.92,Natal
+RN,2024,8,802.11,Natal
+RN,2024,9,908.13,Natal
+RN,2024,10,938.67,Natal
+RN,2024,11,952.11,Natal
+RN,2024,12,915.11,Natal
+RN,2025,3,1020.0,Natal
+RN,2025,4,907.51,Natal
+RN,2025,5,884.45,Natal
+RN,2025,6,1022.27,Natal
+RN,2025,7,1121.87,Natal
+RO,2023,1,940.46,Porto Velho
+RO,2023,2,949.79,Porto Velho
+RO,2023,3,959.17,Porto Velho
+RO,2023,4,1004.46,Porto Velho
+RO,2023,8,1198.3,Porto Velho
+RO,2023,9,1272.63,Porto Velho
+RO,2023,10,1273.14,Porto Velho
+RO,2023,11,1192.21,Porto Velho
+RO,2023,12,1247.4,Porto Velho
+RO,2024,1,1170.84,Porto Velho
+RO,2024,2,1170.12,Porto Velho
+RO,2024,3,1233.89,Porto Velho
+RO,2024,4,1101.86,Porto Velho
+RO,2024,5,1155.5,Porto Velho
+RO,2024,6,1151.17,Porto Velho
+RO,2024,7,1273.34,Porto Velho
+RO,2024,8,1196.31,Porto Velho
+RO,2024,9,1033.8,Porto Velho
+RO,2024,10,1095.09,Porto Velho
+RO,2024,11,1115.49,Porto Velho
+RO,2024,12,1134.24,Porto Velho
+RO,2025,3,1053.03,Porto Velho
+RO,2025,4,1011.59,Porto Velho
+RO,2025,5,1039.95,Porto Velho
+RO,2025,6,1275.91,Porto Velho
+RO,2025,7,1482.48,Porto Velho
+RR,2023,1,1094.13,Boa Vista
+RR,2023,2,1111.55,Boa Vista
+RR,2023,3,1068.79,Boa Vista
+RR,2023,4,1021.94,Boa Vista
+RR,2023,8,1128.63,Boa Vista
+RR,2023,9,1173.5,Boa Vista
+RR,2023,10,1266.24,Boa Vista
+RR,2023,11,1093.92,Boa Vista
+RR,2023,12,997.61,Boa Vista
+RR,2024,1,1028.88,Boa Vista
+RR,2024,2,931.69,Boa Vista
+RR,2024,3,944.3,Boa Vista
+RR,2024,4,912.34,Boa Vista
+RR,2024,5,836.66,Boa Vista
+RR,2024,6,794.41,Boa Vista
+RR,2024,7,867.89,Boa Vista
+RR,2024,8,871.78,Boa Vista
+RR,2024,9,845.29,Boa Vista
+RR,2024,10,914.87,Boa Vista
+RR,2024,11,1079.47,Boa Vista
+RR,2024,12,1043.47,Boa Vista
+RR,2025,3,1112.33,Boa Vista
+RR,2025,4,1143.42,Boa Vista
+RR,2025,5,1229.76,Boa Vista
+RR,2025,6,1483.13,Boa Vista
+RR,2025,7,1566.05,Boa Vista
+RS,2023,1,755.17,Porto Alegre
+RS,2023,2,722.39,Porto Alegre
+RS,2023,3,741.62,Porto Alegre
+RS,2023,4,700.43,Porto Alegre
+RS,2023,8,774.74,Porto Alegre
+RS,2023,9,854.15,Porto Alegre
+RS,2023,10,871.98,Porto Alegre
+RS,2023,11,830.96,Porto Alegre
+RS,2023,12,815.06,Porto Alegre
+RS,2024,1,807.02,Porto Alegre
+RS,2024,2,719.87,Porto Alegre
+RS,2024,3,759.15,Porto Alegre
+RS,2024,4,695.24,Porto Alegre
+RS,2024,5,625.9,Porto Alegre
+RS,2024,6,789.88,Porto Alegre
+RS,2024,7,928.41,Porto Alegre
+RS,2024,8,737.55,Porto Alegre
+RS,2024,9,708.48,Porto Alegre
+RS,2024,10,824.6,Porto Alegre
+RS,2024,11,884.24,Porto Alegre
+RS,2024,12,815.82,Porto Alegre
+RS,2025,3,803.82,Porto Alegre
+RS,2025,4,754.91,Porto Alegre
+RS,2025,5,714.67,Porto Alegre
+RS,2025,6,867.52,Porto Alegre
+RS,2025,7,898.95,Porto Alegre
+SC,2023,1,723.81,Florianópolis
+SC,2023,2,708.24,Florianópolis
+SC,2023,3,728.03,Florianópolis
+SC,2023,4,687.89,Florianópolis
+SC,2023,8,745.84,Florianópolis
+SC,2023,9,802.96,Florianópolis
+SC,2023,10,808.68,Florianópolis
+SC,2023,11,796.99,Florianópolis
+SC,2023,12,823.38,Florianópolis
+SC,2024,1,777.07,Florianópolis
+SC,2024,2,742.75,Florianópolis
+SC,2024,3,792.77,Florianópolis
+SC,2024,4,734.48,Florianópolis
+SC,2024,5,689.53,Florianópolis
+SC,2024,6,725.38,Florianópolis
+SC,2024,7,760.11,Florianópolis
+SC,2024,8,740.12,Florianópolis
+SC,2024,9,774.39,Florianópolis
+SC,2024,10,795.71,Florianópolis
+SC,2024,11,791.72,Florianópolis
+SC,2024,12,777.69,Florianópolis
+SC,2025,3,847.88,Florianópolis
+SC,2025,4,780.76,Florianópolis
+SC,2025,5,711.84,Florianópolis
+SC,2025,6,782.01,Florianópolis
+SC,2025,7,875.81,Florianópolis
+SE,2023,1,468.9,Aracaju
+SE,2023,2,848.9,Aracaju
+SE,2023,3,495.9,Aracaju
+SE,2023,8,338.57,Aracaju
+SE,2023,9,639.9,Aracaju
+SE,2023,10,171.9,Aracaju
+SE,2023,11,189.9,Aracaju
+SE,2024,1,668.9,Aracaju
+SE,2024,2,659.4,Aracaju
+SE,2024,3,1001.12,Aracaju
+SE,2024,6,1441.64,Aracaju
+SP,2023,1,758.75,São Paulo
+SP,2023,2,712.41,São Paulo
+SP,2023,3,762.23,São Paulo
+SP,2023,4,710.76,São Paulo
+SP,2023,8,774.24,São Paulo
+SP,2023,9,788.27,São Paulo
+SP,2023,10,828.54,São Paulo
+SP,2023,11,776.97,São Paulo
+SP,2023,12,785.78,São Paulo
+SP,2024,1,768.72,São Paulo
+SP,2024,2,684.57,São Paulo
+SP,2024,3,738.26,São Paulo
+SP,2024,4,666.28,São Paulo
+SP,2024,5,632.08,São Paulo
+SP,2024,6,671.56,São Paulo
+SP,2024,7,689.19,São Paulo
+SP,2024,8,682.86,São Paulo
+SP,2024,9,717.16,São Paulo
+SP,2024,10,770.65,São Paulo
+SP,2024,11,774.01,São Paulo
+SP,2024,12,763.98,São Paulo
+SP,2025,3,823.42,São Paulo
+SP,2025,4,793.95,São Paulo
+SP,2025,5,714.92,São Paulo
+SP,2025,6,813.68,São Paulo
+SP,2025,7,950.69,São Paulo

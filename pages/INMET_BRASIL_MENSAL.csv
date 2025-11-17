@@ -1,0 +1,865 @@
+UF,ANO,MES,TEMP_MEDIA,CIDADE
+AC,2023,1,25.54,Rio Branco
+AC,2023,2,25.47,Rio Branco
+AC,2023,3,25.42,Rio Branco
+AC,2023,4,23.61,Rio Branco
+AC,2023,5,22.07,Rio Branco
+AC,2023,6,20.97,Rio Branco
+AC,2023,7,21.81,Rio Branco
+AC,2023,8,22.77,Rio Branco
+AC,2023,9,25.03,Rio Branco
+AC,2023,10,25.57,Rio Branco
+AC,2023,11,26.06,Rio Branco
+AC,2023,12,26.48,Rio Branco
+AC,2024,1,26.05,Rio Branco
+AC,2024,2,26.31,Rio Branco
+AC,2024,3,25.85,Rio Branco
+AC,2024,4,24.46,Rio Branco
+AC,2024,5,22.64,Rio Branco
+AC,2024,6,22.46,Rio Branco
+AC,2024,7,21.16,Rio Branco
+AC,2024,8,22.32,Rio Branco
+AC,2024,9,25.15,Rio Branco
+AC,2024,10,25.47,Rio Branco
+AC,2024,11,25.43,Rio Branco
+AC,2024,12,25.13,Rio Branco
+AC,2025,1,25.9,Rio Branco
+AC,2025,2,26.18,Rio Branco
+AC,2025,3,26.04,Rio Branco
+AC,2025,4,23.86,Rio Branco
+AC,2025,5,22.25,Rio Branco
+AC,2025,6,21.14,Rio Branco
+AC,2025,7,20.69,Rio Branco
+AC,2025,8,22.12,Rio Branco
+AL,2023,1,25.46,Maceió
+AL,2023,2,25.57,Maceió
+AL,2023,3,25.62,Maceió
+AL,2023,4,23.12,Maceió
+AL,2023,5,22.63,Maceió
+AL,2023,6,20.98,Maceió
+AL,2023,7,21.23,Maceió
+AL,2023,8,22.83,Maceió
+AL,2023,9,25.11,Maceió
+AL,2023,10,25.8,Maceió
+AL,2023,11,26.46,Maceió
+AL,2023,12,26.51,Maceió
+AL,2024,1,25.91,Maceió
+AL,2024,2,26.92,Maceió
+AL,2024,3,25.77,Maceió
+AL,2024,4,24.54,Maceió
+AL,2024,5,23.21,Maceió
+AL,2024,6,21.84,Maceió
+AL,2024,7,21.7,Maceió
+AL,2024,8,22.51,Maceió
+AL,2024,9,25.52,Maceió
+AL,2024,10,25.51,Maceió
+AL,2024,11,25.19,Maceió
+AL,2024,12,25.16,Maceió
+AL,2025,1,26.04,Maceió
+AL,2025,2,26.25,Maceió
+AL,2025,3,26.07,Maceió
+AL,2025,4,24.1,Maceió
+AL,2025,5,22.4,Maceió
+AL,2025,6,20.76,Maceió
+AL,2025,7,20.88,Maceió
+AL,2025,8,21.86,Maceió
+AM,2023,1,25.3,Manaus
+AM,2023,2,25.54,Manaus
+AM,2023,3,25.64,Manaus
+AM,2023,4,23.83,Manaus
+AM,2023,5,22.06,Manaus
+AM,2023,6,21.1,Manaus
+AM,2023,7,21.78,Manaus
+AM,2023,8,22.88,Manaus
+AM,2023,9,25.14,Manaus
+AM,2023,10,25.72,Manaus
+AM,2023,11,26.11,Manaus
+AM,2023,12,26.49,Manaus
+AM,2024,1,26.01,Manaus
+AM,2024,2,26.3,Manaus
+AM,2024,3,25.86,Manaus
+AM,2024,4,24.64,Manaus
+AM,2024,5,22.71,Manaus
+AM,2024,6,22.41,Manaus
+AM,2024,7,21.36,Manaus
+AM,2024,8,22.71,Manaus
+AM,2024,9,25.14,Manaus
+AM,2024,10,25.58,Manaus
+AM,2024,11,25.52,Manaus
+AM,2024,12,25.21,Manaus
+AM,2025,1,25.6,Manaus
+AM,2025,2,26.14,Manaus
+AM,2025,3,25.83,Manaus
+AM,2025,4,23.92,Manaus
+AM,2025,5,22.77,Manaus
+AM,2025,6,21.0,Manaus
+AM,2025,7,20.83,Manaus
+AM,2025,8,21.97,Manaus
+AP,2023,1,25.54,Macapá
+AP,2023,2,25.54,Macapá
+AP,2023,3,25.27,Macapá
+AP,2023,4,23.49,Macapá
+AP,2023,5,22.31,Macapá
+AP,2023,6,21.3,Macapá
+AP,2023,7,21.75,Macapá
+AP,2023,8,22.98,Macapá
+AP,2023,9,24.99,Macapá
+AP,2023,10,25.38,Macapá
+AP,2023,11,26.3,Macapá
+AP,2023,12,26.62,Macapá
+AP,2024,1,26.32,Macapá
+AP,2024,2,26.19,Macapá
+AP,2024,3,26.08,Macapá
+AP,2024,4,25.01,Macapá
+AP,2024,5,22.98,Macapá
+AP,2024,6,22.02,Macapá
+AP,2024,7,21.38,Macapá
+AP,2024,8,22.4,Macapá
+AP,2024,9,25.12,Macapá
+AP,2024,10,25.64,Macapá
+AP,2024,11,25.7,Macapá
+AP,2024,12,25.61,Macapá
+AP,2025,1,25.5,Macapá
+AP,2025,2,26.29,Macapá
+AP,2025,3,25.76,Macapá
+AP,2025,4,23.92,Macapá
+AP,2025,5,22.5,Macapá
+AP,2025,6,20.72,Macapá
+AP,2025,7,21.33,Macapá
+AP,2025,8,21.92,Macapá
+BA,2023,1,25.53,Salvador
+BA,2023,2,25.72,Salvador
+BA,2023,3,25.52,Salvador
+BA,2023,4,23.68,Salvador
+BA,2023,5,22.18,Salvador
+BA,2023,6,21.18,Salvador
+BA,2023,7,21.75,Salvador
+BA,2023,8,22.95,Salvador
+BA,2023,9,24.98,Salvador
+BA,2023,10,25.74,Salvador
+BA,2023,11,26.29,Salvador
+BA,2023,12,26.51,Salvador
+BA,2024,1,26.09,Salvador
+BA,2024,2,26.19,Salvador
+BA,2024,3,25.9,Salvador
+BA,2024,4,24.72,Salvador
+BA,2024,5,22.91,Salvador
+BA,2024,6,22.44,Salvador
+BA,2024,7,21.18,Salvador
+BA,2024,8,22.53,Salvador
+BA,2024,9,25.29,Salvador
+BA,2024,10,25.8,Salvador
+BA,2024,11,25.66,Salvador
+BA,2024,12,25.42,Salvador
+BA,2025,1,25.76,Salvador
+BA,2025,2,26.3,Salvador
+BA,2025,3,25.8,Salvador
+BA,2025,4,24.16,Salvador
+BA,2025,5,22.52,Salvador
+BA,2025,6,21.24,Salvador
+BA,2025,7,20.82,Salvador
+BA,2025,8,22.01,Salvador
+CE,2023,1,25.11,Fortaleza
+CE,2023,2,25.83,Fortaleza
+CE,2023,3,25.67,Fortaleza
+CE,2023,4,23.53,Fortaleza
+CE,2023,5,21.83,Fortaleza
+CE,2023,6,21.22,Fortaleza
+CE,2023,7,22.22,Fortaleza
+CE,2023,8,22.96,Fortaleza
+CE,2023,9,25.34,Fortaleza
+CE,2023,10,25.95,Fortaleza
+CE,2023,11,26.55,Fortaleza
+CE,2023,12,26.45,Fortaleza
+CE,2024,1,25.62,Fortaleza
+CE,2024,2,26.33,Fortaleza
+CE,2024,3,25.81,Fortaleza
+CE,2024,4,25.04,Fortaleza
+CE,2024,5,23.02,Fortaleza
+CE,2024,6,22.0,Fortaleza
+CE,2024,7,21.44,Fortaleza
+CE,2024,8,22.16,Fortaleza
+CE,2024,9,24.6,Fortaleza
+CE,2024,10,26.28,Fortaleza
+CE,2024,11,25.55,Fortaleza
+CE,2024,12,25.27,Fortaleza
+CE,2025,1,25.54,Fortaleza
+CE,2025,2,26.48,Fortaleza
+CE,2025,3,25.76,Fortaleza
+CE,2025,4,24.22,Fortaleza
+CE,2025,5,22.22,Fortaleza
+CE,2025,6,21.16,Fortaleza
+CE,2025,7,20.76,Fortaleza
+CE,2025,8,22.01,Fortaleza
+DF,2023,1,25.45,Brasília
+DF,2023,2,25.24,Brasília
+DF,2023,3,25.33,Brasília
+DF,2023,4,23.47,Brasília
+DF,2023,5,22.19,Brasília
+DF,2023,6,21.33,Brasília
+DF,2023,7,21.97,Brasília
+DF,2023,8,23.01,Brasília
+DF,2023,9,25.29,Brasília
+DF,2023,10,26.23,Brasília
+DF,2023,11,26.1,Brasília
+DF,2023,12,26.76,Brasília
+DF,2024,1,25.51,Brasília
+DF,2024,2,26.29,Brasília
+DF,2024,3,25.68,Brasília
+DF,2024,4,24.89,Brasília
+DF,2024,5,22.69,Brasília
+DF,2024,6,22.02,Brasília
+DF,2024,7,21.42,Brasília
+DF,2024,8,22.63,Brasília
+DF,2024,9,25.14,Brasília
+DF,2024,10,25.88,Brasília
+DF,2024,11,25.55,Brasília
+DF,2024,12,25.37,Brasília
+DF,2025,1,25.75,Brasília
+DF,2025,2,26.24,Brasília
+DF,2025,3,25.77,Brasília
+DF,2025,4,23.89,Brasília
+DF,2025,5,22.64,Brasília
+DF,2025,6,20.91,Brasília
+DF,2025,7,21.07,Brasília
+DF,2025,8,22.03,Brasília
+ES,2023,1,25.34,Vitória
+ES,2023,2,25.61,Vitória
+ES,2023,3,25.38,Vitória
+ES,2023,4,23.17,Vitória
+ES,2023,5,22.19,Vitória
+ES,2023,6,20.85,Vitória
+ES,2023,7,21.9,Vitória
+ES,2023,8,23.13,Vitória
+ES,2023,9,25.14,Vitória
+ES,2023,10,25.75,Vitória
+ES,2023,11,26.2,Vitória
+ES,2023,12,26.75,Vitória
+ES,2024,1,25.77,Vitória
+ES,2024,2,26.3,Vitória
+ES,2024,3,26.2,Vitória
+ES,2024,4,24.61,Vitória
+ES,2024,5,22.33,Vitória
+ES,2024,6,22.52,Vitória
+ES,2024,7,21.26,Vitória
+ES,2024,8,22.58,Vitória
+ES,2024,9,25.41,Vitória
+ES,2024,10,25.45,Vitória
+ES,2024,11,25.51,Vitória
+ES,2024,12,25.06,Vitória
+ES,2025,1,25.74,Vitória
+ES,2025,2,26.05,Vitória
+ES,2025,3,25.78,Vitória
+ES,2025,4,23.84,Vitória
+ES,2025,5,22.43,Vitória
+ES,2025,6,21.34,Vitória
+ES,2025,7,20.89,Vitória
+ES,2025,8,21.92,Vitória
+GO,2023,1,25.27,Goiânia
+GO,2023,2,25.64,Goiânia
+GO,2023,3,25.35,Goiânia
+GO,2023,4,23.65,Goiânia
+GO,2023,5,22.1,Goiânia
+GO,2023,6,21.2,Goiânia
+GO,2023,7,21.62,Goiânia
+GO,2023,8,23.04,Goiânia
+GO,2023,9,25.19,Goiânia
+GO,2023,10,25.79,Goiânia
+GO,2023,11,26.22,Goiânia
+GO,2023,12,26.71,Goiânia
+GO,2024,1,25.66,Goiânia
+GO,2024,2,26.43,Goiânia
+GO,2024,3,25.9,Goiânia
+GO,2024,4,24.68,Goiânia
+GO,2024,5,22.55,Goiânia
+GO,2024,6,22.1,Goiânia
+GO,2024,7,21.09,Goiânia
+GO,2024,8,22.5,Goiânia
+GO,2024,9,25.24,Goiânia
+GO,2024,10,25.58,Goiânia
+GO,2024,11,25.54,Goiânia
+GO,2024,12,25.32,Goiânia
+GO,2025,1,25.85,Goiânia
+GO,2025,2,26.31,Goiânia
+GO,2025,3,25.28,Goiânia
+GO,2025,4,24.03,Goiânia
+GO,2025,5,22.84,Goiânia
+GO,2025,6,21.3,Goiânia
+GO,2025,7,21.24,Goiânia
+GO,2025,8,21.72,Goiânia
+MA,2023,1,25.52,São Luís
+MA,2023,2,25.65,São Luís
+MA,2023,3,25.44,São Luís
+MA,2023,4,23.12,São Luís
+MA,2023,5,21.91,São Luís
+MA,2023,6,21.16,São Luís
+MA,2023,7,22.02,São Luís
+MA,2023,8,23.04,São Luís
+MA,2023,9,25.58,São Luís
+MA,2023,10,25.55,São Luís
+MA,2023,11,26.51,São Luís
+MA,2023,12,26.63,São Luís
+MA,2024,1,26.03,São Luís
+MA,2024,2,26.33,São Luís
+MA,2024,3,25.98,São Luís
+MA,2024,4,24.78,São Luís
+MA,2024,5,22.59,São Luís
+MA,2024,6,22.96,São Luís
+MA,2024,7,21.35,São Luís
+MA,2024,8,22.06,São Luís
+MA,2024,9,25.13,São Luís
+MA,2024,10,25.37,São Luís
+MA,2024,11,26.14,São Luís
+MA,2024,12,25.13,São Luís
+MA,2025,1,25.49,São Luís
+MA,2025,2,26.53,São Luís
+MA,2025,3,25.48,São Luís
+MA,2025,4,24.04,São Luís
+MA,2025,5,22.3,São Luís
+MA,2025,6,20.69,São Luís
+MA,2025,7,20.58,São Luís
+MA,2025,8,21.62,São Luís
+MG,2023,1,25.4,Belo Horizonte
+MG,2023,2,25.51,Belo Horizonte
+MG,2023,3,25.49,Belo Horizonte
+MG,2023,4,23.57,Belo Horizonte
+MG,2023,5,22.2,Belo Horizonte
+MG,2023,6,21.16,Belo Horizonte
+MG,2023,7,21.8,Belo Horizonte
+MG,2023,8,23.0,Belo Horizonte
+MG,2023,9,25.04,Belo Horizonte
+MG,2023,10,25.61,Belo Horizonte
+MG,2023,11,26.2,Belo Horizonte
+MG,2023,12,26.61,Belo Horizonte
+MG,2024,1,25.92,Belo Horizonte
+MG,2024,2,26.22,Belo Horizonte
+MG,2024,3,26.08,Belo Horizonte
+MG,2024,4,24.71,Belo Horizonte
+MG,2024,5,22.75,Belo Horizonte
+MG,2024,6,22.34,Belo Horizonte
+MG,2024,7,21.36,Belo Horizonte
+MG,2024,8,22.48,Belo Horizonte
+MG,2024,9,25.19,Belo Horizonte
+MG,2024,10,25.66,Belo Horizonte
+MG,2024,11,25.69,Belo Horizonte
+MG,2024,12,25.25,Belo Horizonte
+MG,2025,1,25.73,Belo Horizonte
+MG,2025,2,26.26,Belo Horizonte
+MG,2025,3,25.67,Belo Horizonte
+MG,2025,4,23.84,Belo Horizonte
+MG,2025,5,22.66,Belo Horizonte
+MG,2025,6,21.04,Belo Horizonte
+MG,2025,7,20.86,Belo Horizonte
+MG,2025,8,22.07,Belo Horizonte
+MS,2023,1,25.3,Campo Grande
+MS,2023,2,25.55,Campo Grande
+MS,2023,3,25.29,Campo Grande
+MS,2023,4,23.51,Campo Grande
+MS,2023,5,22.26,Campo Grande
+MS,2023,6,21.06,Campo Grande
+MS,2023,7,21.81,Campo Grande
+MS,2023,8,22.75,Campo Grande
+MS,2023,9,25.09,Campo Grande
+MS,2023,10,25.55,Campo Grande
+MS,2023,11,26.29,Campo Grande
+MS,2023,12,26.51,Campo Grande
+MS,2024,1,25.98,Campo Grande
+MS,2024,2,26.22,Campo Grande
+MS,2024,3,25.86,Campo Grande
+MS,2024,4,24.86,Campo Grande
+MS,2024,5,22.84,Campo Grande
+MS,2024,6,22.05,Campo Grande
+MS,2024,7,21.15,Campo Grande
+MS,2024,8,22.63,Campo Grande
+MS,2024,9,25.27,Campo Grande
+MS,2024,10,25.25,Campo Grande
+MS,2024,11,25.42,Campo Grande
+MS,2024,12,25.31,Campo Grande
+MS,2025,1,25.75,Campo Grande
+MS,2025,2,26.25,Campo Grande
+MS,2025,3,25.98,Campo Grande
+MS,2025,4,24.17,Campo Grande
+MS,2025,5,22.65,Campo Grande
+MS,2025,6,21.38,Campo Grande
+MS,2025,7,20.78,Campo Grande
+MS,2025,8,21.88,Campo Grande
+MT,2023,1,25.47,Cuiabá
+MT,2023,2,25.56,Cuiabá
+MT,2023,3,25.67,Cuiabá
+MT,2023,4,23.58,Cuiabá
+MT,2023,5,22.46,Cuiabá
+MT,2023,6,21.37,Cuiabá
+MT,2023,7,21.89,Cuiabá
+MT,2023,8,23.02,Cuiabá
+MT,2023,9,25.11,Cuiabá
+MT,2023,10,25.68,Cuiabá
+MT,2023,11,26.06,Cuiabá
+MT,2023,12,26.52,Cuiabá
+MT,2024,1,25.83,Cuiabá
+MT,2024,2,26.3,Cuiabá
+MT,2024,3,25.86,Cuiabá
+MT,2024,4,24.82,Cuiabá
+MT,2024,5,22.68,Cuiabá
+MT,2024,6,22.3,Cuiabá
+MT,2024,7,21.24,Cuiabá
+MT,2024,8,22.23,Cuiabá
+MT,2024,9,25.17,Cuiabá
+MT,2024,10,25.49,Cuiabá
+MT,2024,11,25.36,Cuiabá
+MT,2024,12,25.5,Cuiabá
+MT,2025,1,25.75,Cuiabá
+MT,2025,2,26.53,Cuiabá
+MT,2025,3,25.96,Cuiabá
+MT,2025,4,23.85,Cuiabá
+MT,2025,5,22.29,Cuiabá
+MT,2025,6,21.04,Cuiabá
+MT,2025,7,20.83,Cuiabá
+MT,2025,8,22.37,Cuiabá
+PA,2023,1,25.36,Belém
+PA,2023,2,25.46,Belém
+PA,2023,3,25.44,Belém
+PA,2023,4,23.66,Belém
+PA,2023,5,22.34,Belém
+PA,2023,6,21.19,Belém
+PA,2023,7,21.72,Belém
+PA,2023,8,22.76,Belém
+PA,2023,9,24.98,Belém
+PA,2023,10,25.71,Belém
+PA,2023,11,26.14,Belém
+PA,2023,12,26.69,Belém
+PA,2024,1,25.98,Belém
+PA,2024,2,26.28,Belém
+PA,2024,3,26.14,Belém
+PA,2024,4,24.58,Belém
+PA,2024,5,22.65,Belém
+PA,2024,6,22.37,Belém
+PA,2024,7,21.31,Belém
+PA,2024,8,22.5,Belém
+PA,2024,9,25.11,Belém
+PA,2024,10,25.6,Belém
+PA,2024,11,25.5,Belém
+PA,2024,12,25.39,Belém
+PA,2025,1,25.82,Belém
+PA,2025,2,26.24,Belém
+PA,2025,3,25.79,Belém
+PA,2025,4,23.98,Belém
+PA,2025,5,22.48,Belém
+PA,2025,6,21.11,Belém
+PA,2025,7,20.92,Belém
+PA,2025,8,21.99,Belém
+PB,2023,1,25.37,João Pessoa
+PB,2023,2,25.76,João Pessoa
+PB,2023,3,25.46,João Pessoa
+PB,2023,4,23.43,João Pessoa
+PB,2023,5,22.18,João Pessoa
+PB,2023,6,21.13,João Pessoa
+PB,2023,7,21.67,João Pessoa
+PB,2023,8,22.6,João Pessoa
+PB,2023,9,25.28,João Pessoa
+PB,2023,10,25.6,João Pessoa
+PB,2023,11,26.27,João Pessoa
+PB,2023,12,26.59,João Pessoa
+PB,2024,1,26.01,João Pessoa
+PB,2024,2,26.12,João Pessoa
+PB,2024,3,25.82,João Pessoa
+PB,2024,4,24.67,João Pessoa
+PB,2024,5,22.78,João Pessoa
+PB,2024,6,22.46,João Pessoa
+PB,2024,7,20.88,João Pessoa
+PB,2024,8,22.56,João Pessoa
+PB,2024,9,25.18,João Pessoa
+PB,2024,10,25.73,João Pessoa
+PB,2024,11,25.82,João Pessoa
+PB,2024,12,25.21,João Pessoa
+PB,2025,1,25.97,João Pessoa
+PB,2025,2,25.91,João Pessoa
+PB,2025,3,26.11,João Pessoa
+PB,2025,4,23.86,João Pessoa
+PB,2025,5,22.6,João Pessoa
+PB,2025,6,21.02,João Pessoa
+PB,2025,7,21.01,João Pessoa
+PB,2025,8,22.01,João Pessoa
+PE,2023,1,25.24,Recife
+PE,2023,2,25.81,Recife
+PE,2023,3,25.71,Recife
+PE,2023,4,23.28,Recife
+PE,2023,5,21.96,Recife
+PE,2023,6,21.25,Recife
+PE,2023,7,22.01,Recife
+PE,2023,8,23.03,Recife
+PE,2023,9,25.38,Recife
+PE,2023,10,25.82,Recife
+PE,2023,11,26.17,Recife
+PE,2023,12,26.74,Recife
+PE,2024,1,26.01,Recife
+PE,2024,2,26.14,Recife
+PE,2024,3,25.87,Recife
+PE,2024,4,24.66,Recife
+PE,2024,5,22.42,Recife
+PE,2024,6,22.25,Recife
+PE,2024,7,21.0,Recife
+PE,2024,8,22.44,Recife
+PE,2024,9,25.32,Recife
+PE,2024,10,25.7,Recife
+PE,2024,11,26.15,Recife
+PE,2024,12,25.41,Recife
+PE,2025,1,25.68,Recife
+PE,2025,2,26.23,Recife
+PE,2025,3,25.77,Recife
+PE,2025,4,23.82,Recife
+PE,2025,5,22.12,Recife
+PE,2025,6,21.39,Recife
+PE,2025,7,20.65,Recife
+PE,2025,8,22.4,Recife
+PI,2023,1,25.52,Teresina
+PI,2023,2,25.54,Teresina
+PI,2023,3,25.52,Teresina
+PI,2023,4,23.47,Teresina
+PI,2023,5,22.24,Teresina
+PI,2023,6,21.27,Teresina
+PI,2023,7,21.8,Teresina
+PI,2023,8,22.72,Teresina
+PI,2023,9,24.7,Teresina
+PI,2023,10,25.58,Teresina
+PI,2023,11,26.29,Teresina
+PI,2023,12,26.86,Teresina
+PI,2024,1,26.05,Teresina
+PI,2024,2,26.42,Teresina
+PI,2024,3,25.82,Teresina
+PI,2024,4,24.78,Teresina
+PI,2024,5,23.01,Teresina
+PI,2024,6,22.43,Teresina
+PI,2024,7,21.53,Teresina
+PI,2024,8,22.7,Teresina
+PI,2024,9,25.25,Teresina
+PI,2024,10,25.5,Teresina
+PI,2024,11,25.4,Teresina
+PI,2024,12,25.19,Teresina
+PI,2025,1,25.63,Teresina
+PI,2025,2,26.36,Teresina
+PI,2025,3,25.71,Teresina
+PI,2025,4,23.98,Teresina
+PI,2025,5,22.7,Teresina
+PI,2025,6,21.13,Teresina
+PI,2025,7,21.06,Teresina
+PI,2025,8,22.13,Teresina
+PR,2023,1,25.47,Curitiba
+PR,2023,2,25.57,Curitiba
+PR,2023,3,25.6,Curitiba
+PR,2023,4,23.64,Curitiba
+PR,2023,5,22.31,Curitiba
+PR,2023,6,20.89,Curitiba
+PR,2023,7,21.87,Curitiba
+PR,2023,8,22.51,Curitiba
+PR,2023,9,24.93,Curitiba
+PR,2023,10,26.13,Curitiba
+PR,2023,11,26.11,Curitiba
+PR,2023,12,26.8,Curitiba
+PR,2024,1,26.26,Curitiba
+PR,2024,2,26.42,Curitiba
+PR,2024,3,26.07,Curitiba
+PR,2024,4,24.76,Curitiba
+PR,2024,5,22.89,Curitiba
+PR,2024,6,22.33,Curitiba
+PR,2024,7,21.2,Curitiba
+PR,2024,8,22.41,Curitiba
+PR,2024,9,25.26,Curitiba
+PR,2024,10,25.63,Curitiba
+PR,2024,11,25.47,Curitiba
+PR,2024,12,25.21,Curitiba
+PR,2025,1,25.65,Curitiba
+PR,2025,2,26.52,Curitiba
+PR,2025,3,25.75,Curitiba
+PR,2025,4,24.16,Curitiba
+PR,2025,5,22.44,Curitiba
+PR,2025,6,21.21,Curitiba
+PR,2025,7,20.82,Curitiba
+PR,2025,8,22.25,Curitiba
+RJ,2023,1,25.61,Rio de Janeiro
+RJ,2023,2,25.42,Rio de Janeiro
+RJ,2023,3,25.76,Rio de Janeiro
+RJ,2023,4,23.72,Rio de Janeiro
+RJ,2023,5,22.14,Rio de Janeiro
+RJ,2023,6,21.22,Rio de Janeiro
+RJ,2023,7,21.76,Rio de Janeiro
+RJ,2023,8,23.01,Rio de Janeiro
+RJ,2023,9,24.81,Rio de Janeiro
+RJ,2023,10,26.29,Rio de Janeiro
+RJ,2023,11,26.13,Rio de Janeiro
+RJ,2023,12,26.43,Rio de Janeiro
+RJ,2024,1,25.85,Rio de Janeiro
+RJ,2024,2,26.27,Rio de Janeiro
+RJ,2024,3,25.77,Rio de Janeiro
+RJ,2024,4,25.03,Rio de Janeiro
+RJ,2024,5,22.95,Rio de Janeiro
+RJ,2024,6,22.34,Rio de Janeiro
+RJ,2024,7,21.16,Rio de Janeiro
+RJ,2024,8,22.47,Rio de Janeiro
+RJ,2024,9,25.02,Rio de Janeiro
+RJ,2024,10,25.59,Rio de Janeiro
+RJ,2024,11,25.71,Rio de Janeiro
+RJ,2024,12,25.62,Rio de Janeiro
+RJ,2025,1,25.99,Rio de Janeiro
+RJ,2025,2,26.24,Rio de Janeiro
+RJ,2025,3,25.62,Rio de Janeiro
+RJ,2025,4,24.26,Rio de Janeiro
+RJ,2025,5,22.87,Rio de Janeiro
+RJ,2025,6,21.07,Rio de Janeiro
+RJ,2025,7,20.99,Rio de Janeiro
+RJ,2025,8,21.9,Rio de Janeiro
+RN,2023,1,25.79,Natal
+RN,2023,2,25.51,Natal
+RN,2023,3,25.02,Natal
+RN,2023,4,23.71,Natal
+RN,2023,5,22.25,Natal
+RN,2023,6,21.46,Natal
+RN,2023,7,21.91,Natal
+RN,2023,8,22.8,Natal
+RN,2023,9,24.87,Natal
+RN,2023,10,26.0,Natal
+RN,2023,11,26.26,Natal
+RN,2023,12,26.51,Natal
+RN,2024,1,25.77,Natal
+RN,2024,2,26.43,Natal
+RN,2024,3,26.36,Natal
+RN,2024,4,24.59,Natal
+RN,2024,5,22.88,Natal
+RN,2024,6,22.18,Natal
+RN,2024,7,21.17,Natal
+RN,2024,8,22.4,Natal
+RN,2024,9,24.99,Natal
+RN,2024,10,25.76,Natal
+RN,2024,11,25.48,Natal
+RN,2024,12,25.41,Natal
+RN,2025,1,25.88,Natal
+RN,2025,2,26.3,Natal
+RN,2025,3,26.07,Natal
+RN,2025,4,23.94,Natal
+RN,2025,5,22.62,Natal
+RN,2025,6,20.8,Natal
+RN,2025,7,21.06,Natal
+RN,2025,8,22.49,Natal
+RO,2023,1,25.55,Porto Velho
+RO,2023,2,25.55,Porto Velho
+RO,2023,3,25.53,Porto Velho
+RO,2023,4,23.45,Porto Velho
+RO,2023,5,22.15,Porto Velho
+RO,2023,6,21.21,Porto Velho
+RO,2023,7,21.97,Porto Velho
+RO,2023,8,22.68,Porto Velho
+RO,2023,9,25.24,Porto Velho
+RO,2023,10,25.47,Porto Velho
+RO,2023,11,26.21,Porto Velho
+RO,2023,12,26.55,Porto Velho
+RO,2024,1,26.08,Porto Velho
+RO,2024,2,26.31,Porto Velho
+RO,2024,3,26.07,Porto Velho
+RO,2024,4,24.65,Porto Velho
+RO,2024,5,22.88,Porto Velho
+RO,2024,6,22.28,Porto Velho
+RO,2024,7,21.29,Porto Velho
+RO,2024,8,22.44,Porto Velho
+RO,2024,9,25.29,Porto Velho
+RO,2024,10,25.43,Porto Velho
+RO,2024,11,25.42,Porto Velho
+RO,2024,12,25.21,Porto Velho
+RO,2025,1,25.84,Porto Velho
+RO,2025,2,26.25,Porto Velho
+RO,2025,3,25.59,Porto Velho
+RO,2025,4,24.0,Porto Velho
+RO,2025,5,23.02,Porto Velho
+RO,2025,6,21.03,Porto Velho
+RO,2025,7,21.08,Porto Velho
+RO,2025,8,22.01,Porto Velho
+RR,2023,1,25.51,Boa Vista
+RR,2023,2,25.35,Boa Vista
+RR,2023,3,25.63,Boa Vista
+RR,2023,4,23.78,Boa Vista
+RR,2023,5,21.71,Boa Vista
+RR,2023,6,21.14,Boa Vista
+RR,2023,7,21.96,Boa Vista
+RR,2023,8,23.24,Boa Vista
+RR,2023,9,25.47,Boa Vista
+RR,2023,10,25.85,Boa Vista
+RR,2023,11,26.51,Boa Vista
+RR,2023,12,26.62,Boa Vista
+RR,2024,1,26.13,Boa Vista
+RR,2024,2,26.45,Boa Vista
+RR,2024,3,25.92,Boa Vista
+RR,2024,4,24.99,Boa Vista
+RR,2024,5,22.55,Boa Vista
+RR,2024,6,22.27,Boa Vista
+RR,2024,7,21.12,Boa Vista
+RR,2024,8,22.66,Boa Vista
+RR,2024,9,24.98,Boa Vista
+RR,2024,10,25.37,Boa Vista
+RR,2024,11,25.77,Boa Vista
+RR,2024,12,25.71,Boa Vista
+RR,2025,1,25.54,Boa Vista
+RR,2025,2,26.63,Boa Vista
+RR,2025,3,25.97,Boa Vista
+RR,2025,4,23.59,Boa Vista
+RR,2025,5,22.68,Boa Vista
+RR,2025,6,20.89,Boa Vista
+RR,2025,7,21.59,Boa Vista
+RR,2025,8,21.79,Boa Vista
+RS,2023,1,25.44,Porto Alegre
+RS,2023,2,25.55,Porto Alegre
+RS,2023,3,25.49,Porto Alegre
+RS,2023,4,23.58,Porto Alegre
+RS,2023,5,22.28,Porto Alegre
+RS,2023,6,21.21,Porto Alegre
+RS,2023,7,21.97,Porto Alegre
+RS,2023,8,22.88,Porto Alegre
+RS,2023,9,25.19,Porto Alegre
+RS,2023,10,25.67,Porto Alegre
+RS,2023,11,26.29,Porto Alegre
+RS,2023,12,26.5,Porto Alegre
+RS,2024,1,26.1,Porto Alegre
+RS,2024,2,26.41,Porto Alegre
+RS,2024,3,26.03,Porto Alegre
+RS,2024,4,24.79,Porto Alegre
+RS,2024,5,22.63,Porto Alegre
+RS,2024,6,22.15,Porto Alegre
+RS,2024,7,21.38,Porto Alegre
+RS,2024,8,22.53,Porto Alegre
+RS,2024,9,25.22,Porto Alegre
+RS,2024,10,25.5,Porto Alegre
+RS,2024,11,25.42,Porto Alegre
+RS,2024,12,25.55,Porto Alegre
+RS,2025,1,25.75,Porto Alegre
+RS,2025,2,26.3,Porto Alegre
+RS,2025,3,25.8,Porto Alegre
+RS,2025,4,24.14,Porto Alegre
+RS,2025,5,22.71,Porto Alegre
+RS,2025,6,21.1,Porto Alegre
+RS,2025,7,21.01,Porto Alegre
+RS,2025,8,22.04,Porto Alegre
+SC,2023,1,25.52,Florianópolis
+SC,2023,2,25.49,Florianópolis
+SC,2023,3,25.5,Florianópolis
+SC,2023,4,23.59,Florianópolis
+SC,2023,5,22.4,Florianópolis
+SC,2023,6,20.98,Florianópolis
+SC,2023,7,21.86,Florianópolis
+SC,2023,8,22.78,Florianópolis
+SC,2023,9,25.11,Florianópolis
+SC,2023,10,25.75,Florianópolis
+SC,2023,11,26.32,Florianópolis
+SC,2023,12,26.53,Florianópolis
+SC,2024,1,25.98,Florianópolis
+SC,2024,2,26.39,Florianópolis
+SC,2024,3,26.18,Florianópolis
+SC,2024,4,24.66,Florianópolis
+SC,2024,5,23.06,Florianópolis
+SC,2024,6,22.33,Florianópolis
+SC,2024,7,21.24,Florianópolis
+SC,2024,8,22.43,Florianópolis
+SC,2024,9,25.19,Florianópolis
+SC,2024,10,25.41,Florianópolis
+SC,2024,11,25.32,Florianópolis
+SC,2024,12,25.34,Florianópolis
+SC,2025,1,25.93,Florianópolis
+SC,2025,2,26.15,Florianópolis
+SC,2025,3,25.91,Florianópolis
+SC,2025,4,24.12,Florianópolis
+SC,2025,5,22.64,Florianópolis
+SC,2025,6,21.21,Florianópolis
+SC,2025,7,20.81,Florianópolis
+SC,2025,8,21.86,Florianópolis
+SE,2023,1,25.41,Aracaju
+SE,2023,2,25.65,Aracaju
+SE,2023,3,25.51,Aracaju
+SE,2023,4,23.4,Aracaju
+SE,2023,5,22.44,Aracaju
+SE,2023,6,21.37,Aracaju
+SE,2023,7,22.08,Aracaju
+SE,2023,8,22.92,Aracaju
+SE,2023,9,24.97,Aracaju
+SE,2023,10,25.65,Aracaju
+SE,2023,11,26.07,Aracaju
+SE,2023,12,26.4,Aracaju
+SE,2024,1,25.88,Aracaju
+SE,2024,2,25.94,Aracaju
+SE,2024,3,26.12,Aracaju
+SE,2024,4,24.92,Aracaju
+SE,2024,5,22.73,Aracaju
+SE,2024,6,22.12,Aracaju
+SE,2024,7,20.98,Aracaju
+SE,2024,8,22.42,Aracaju
+SE,2024,9,24.86,Aracaju
+SE,2024,10,25.85,Aracaju
+SE,2024,11,25.6,Aracaju
+SE,2024,12,25.2,Aracaju
+SE,2025,1,25.64,Aracaju
+SE,2025,2,26.23,Aracaju
+SE,2025,3,25.97,Aracaju
+SE,2025,4,23.62,Aracaju
+SE,2025,5,22.12,Aracaju
+SE,2025,6,20.87,Aracaju
+SE,2025,7,21.41,Aracaju
+SE,2025,8,21.74,Aracaju
+SP,2023,1,25.55,São Paulo
+SP,2023,2,25.56,São Paulo
+SP,2023,3,25.63,São Paulo
+SP,2023,4,23.55,São Paulo
+SP,2023,5,22.33,São Paulo
+SP,2023,6,20.98,São Paulo
+SP,2023,7,21.57,São Paulo
+SP,2023,8,23.25,São Paulo
+SP,2023,9,25.19,São Paulo
+SP,2023,10,25.84,São Paulo
+SP,2023,11,26.27,São Paulo
+SP,2023,12,26.76,São Paulo
+SP,2024,1,26.01,São Paulo
+SP,2024,2,26.28,São Paulo
+SP,2024,3,25.76,São Paulo
+SP,2024,4,24.64,São Paulo
+SP,2024,5,22.87,São Paulo
+SP,2024,6,22.61,São Paulo
+SP,2024,7,21.16,São Paulo
+SP,2024,8,22.51,São Paulo
+SP,2024,9,25.43,São Paulo
+SP,2024,10,25.79,São Paulo
+SP,2024,11,25.77,São Paulo
+SP,2024,12,25.54,São Paulo
+SP,2025,1,25.8,São Paulo
+SP,2025,2,26.3,São Paulo
+SP,2025,3,25.67,São Paulo
+SP,2025,4,24.14,São Paulo
+SP,2025,5,22.56,São Paulo
+SP,2025,6,21.02,São Paulo
+SP,2025,7,20.83,São Paulo
+SP,2025,8,22.05,São Paulo
+TO,2023,1,25.6,Palmas
+TO,2023,2,25.86,Palmas
+TO,2023,3,25.54,Palmas
+TO,2023,4,23.35,Palmas
+TO,2023,5,22.36,Palmas
+TO,2023,6,21.18,Palmas
+TO,2023,7,22.09,Palmas
+TO,2023,8,23.24,Palmas
+TO,2023,9,25.29,Palmas
+TO,2023,10,25.88,Palmas
+TO,2023,11,26.34,Palmas
+TO,2023,12,26.64,Palmas
+TO,2024,1,26.1,Palmas
+TO,2024,2,26.22,Palmas
+TO,2024,3,26.16,Palmas
+TO,2024,4,24.94,Palmas
+TO,2024,5,22.72,Palmas
+TO,2024,6,22.14,Palmas
+TO,2024,7,20.95,Palmas
+TO,2024,8,22.45,Palmas
+TO,2024,9,25.29,Palmas
+TO,2024,10,25.44,Palmas
+TO,2024,11,25.62,Palmas
+TO,2024,12,25.1,Palmas
+TO,2025,1,25.77,Palmas
+TO,2025,2,26.24,Palmas
+TO,2025,3,26.08,Palmas
+TO,2025,4,24.42,Palmas
+TO,2025,5,22.46,Palmas
+TO,2025,6,21.04,Palmas
+TO,2025,7,21.16,Palmas
+TO,2025,8,21.94,Palmas
