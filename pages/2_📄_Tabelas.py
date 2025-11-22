@@ -1,46 +1,135 @@
-# pages/2_📄_Tabelas.py
 import streamlit as st
+import pandas as pd
 from data_processing import carregar_dados_completos
+import streamlit as st
+from utils_style import aplicar_estilo_padrao # <--- Importa
 
-st.set_page_config(layout="wide")
-st.title("📄 Tabelas de Dados")
-st.markdown("Dados filtrados e pré-agregados para todas as capitais brasleiras.")
+st.set_page_config(layout="wide", page_title="...") # <--- Configura
 
-# --- Helper de Paginação ---
-def mostrar_tabela_paginada(df, key_prefix):
-    if df is None or df.empty:
-        st.warning("Não há dados para exibir nesta tabela.")
-        return
-    st.info(f"A tabela completa tem **{len(df)}** linhas.")
-    
-    # Reorganiza colunas para 'CIDADE' vir primeiro
-    if 'CIDADE' in df.columns:
-        cols = ['CIDADE'] + [col for col in df.columns if col not in ['CIDADE', 'UF']]
-        # Remove UF se ela ainda existir e não for desejada
-        if 'UF' in cols:
-            cols.remove('UF')
-        df_display = df[cols]
-    else:
-        df_display = df
+aplicar_estilo_padrao() # <--- APLICA O CSS
 
-    col1, col2 = st.columns(2)
-    max_rows = len(df_display)
-    start_row = col1.number_input("Mostrar a partir da linha:", 0, max_rows - 1, 0, 100, key=f"start_{key_prefix}")
-    end_row = col2.number_input("Até a linha:", start_row, max_rows, min(start_row + 100, max_rows), 100, key=f"end_{key_prefix}")
-    
-    st.dataframe(df_display.iloc[int(start_row):int(end_row)])
+# 1. Configuração e Estilo (Igual ao Dashboard para consistência)
+st.set_page_config(layout="wide", page_title="Relatórios de Dados")
 
-# --- Carregar Dados e Exibir Tabelas ---
+st.markdown("""
+    <style>
+        .block-container {padding-top: 1.5rem; padding-bottom: 1rem;}
+        h1 {font-size: 2.2rem;}
+        h3 {font-size: 1.4rem; color: #2c3e50;}
+        .stDataFrame {border: 1px solid #f0f2f6; border-radius: 5px;}
+    </style>
+""", unsafe_allow_html=True)
+
+st.title("📄 Relatórios Analíticos")
+st.markdown("Acesso aos dados detalhados, formatados e prontos para exportação.")
+
+# 2. Carga de Dados
 df_anac_mensal, df_integrado, df_ipca = carregar_dados_completos()
 
-st.header("1. Tabela de Tarifa Média por Cidade (ANAC)")
-st.markdown("Média mensal de tarifa da ANAC (arquivo `ANAC_CAPITAIS_UF_MENSAL.csv`).")
-mostrar_tabela_paginada(df_anac_mensal, "anac")
+if df_integrado is None:
+    st.error("Erro ao carregar dados.")
+    st.stop()
 
-st.header("2. Tabela Integrada (ANAC + INMET)")
-st.markdown("Média mensal de tarifa e temperatura por cidade.")
-mostrar_tabela_paginada(df_integrado, "integrado")
+# Preparação de Datas para exibição (Cria coluna DATA limpa)
+for df in [df_anac_mensal, df_integrado]:
+    if df is not None and not df.empty:
+        df['DATA_REF'] = pd.to_datetime(df['ANO'].astype(str) + '-' + df['MES'].astype(str)).dt.date
 
-st.header("3. Tabela de Inflação (IPCA vs. Tarifa Média)")
-st.markdown("Comparativo da tarifa aérea média (das 4 capitais) com o IPCA.")
-mostrar_tabela_paginada(df_ipca, "ipca")
+if df_ipca is not None:
+     df_ipca['DATA_REF'] = pd.to_datetime(df_ipca['ANO'].astype(str) + '-' + df_ipca['MES'].astype(str)).dt.date
+
+# ===================================================================
+# 3. ESTRUTURA EM ABAS (TABS)
+# ===================================================================
+# Isso substitui a rolagem infinita por uma interface organizada
+tab1, tab2, tab3 = st.tabs(["✈️ Tarifas (ANAC)", "🌡️ Clima & Preço (Integrado)", "📈 Economia (IPCA)"])
+
+# --- ABA 1: DADOS DA ANAC ---
+with tab1:
+    st.subheader("Relatório de Tarifas Aéreas")
+    st.caption("Dados consolidados de tarifa média mensal por capital.")
+    
+    if df_anac_mensal is not None:
+        # Métricas de Resumo da Tabela
+        c1, c2, c3 = st.columns(3)
+        c1.info(f"**Registros:** {len(df_anac_mensal)} linhas")
+        c2.info(f"**Cidades:** {df_anac_mensal['CIDADE'].nunique()}")
+        c3.info(f"**Período:** {df_anac_mensal['DATA_REF'].min()} a {df_anac_mensal['DATA_REF'].max()}")
+        
+        # Tabela com Formatação Profissional
+        st.dataframe(
+            df_anac_mensal,
+            use_container_width=True,
+            hide_index=True,
+            column_order=["DATA_REF", "CIDADE", "UF", "TARIFA"],
+            column_config={
+                "DATA_REF": st.column_config.DateColumn("Data Referência", format="MM/YYYY"),
+                "CIDADE": "Capital",
+                "UF": "Estado",
+                "TARIFA": st.column_config.NumberColumn(
+                    "Tarifa Média",
+                    format="R$ %.2f" # Formatação de Moeda
+                )
+            }
+        )
+        
+        # Botão de Download
+        csv = df_anac_mensal.to_csv(index=False).encode('utf-8')
+        st.download_button("📥 Baixar CSV (ANAC)", data=csv, file_name="anac_tarifas.csv", mime="text/csv")
+
+# --- ABA 2: DADOS INTEGRADOS ---
+with tab2:
+    st.subheader("Dataset Integrado (Tarifa + Clima)")
+    st.caption("Cruzamento de dados onde cada linha representa o preço e a temperatura de uma cidade em um mês específico.")
+    
+    if df_integrado is not None:
+        c1, c2 = st.columns(2)
+        c1.info(f"**Registros Integrados:** {len(df_integrado)}")
+        c2.info(f"**Correlação Geral:** {df_integrado['TARIFA'].corr(df_integrado['TEMP_MEDIA']):.2f}")
+
+        st.dataframe(
+            df_integrado,
+            use_container_width=True,
+            hide_index=True,
+            column_order=["DATA_REF", "CIDADE", "TARIFA", "TEMP_MEDIA"],
+            column_config={
+                "DATA_REF": st.column_config.DateColumn("Data", format="MM/YYYY"),
+                "CIDADE": "Capital",
+                "TARIFA": st.column_config.NumberColumn("Tarifa", format="R$ %.2f"),
+                "TEMP_MEDIA": st.column_config.NumberColumn(
+                    "Temp. Média",
+                    format="%.1f °C" # Formatação de Temperatura
+                )
+            }
+        )
+        
+        csv_int = df_integrado.to_csv(index=False).encode('utf-8')
+        st.download_button("📥 Baixar CSV (Integrado)", data=csv_int, file_name="dados_integrados.csv", mime="text/csv")
+
+# --- ABA 3: DADOS IPCA ---
+with tab3:
+    st.subheader("Histórico de Inflação e Preço Médio")
+    st.caption("Comparativo macroeconômico nacional.")
+    
+    if df_ipca is not None:
+        st.dataframe(
+            df_ipca,
+            use_container_width=True,
+            hide_index=True,
+            column_order=["DATA_REF", "IPCA", "TARIFA"],
+            column_config={
+                "DATA_REF": st.column_config.DateColumn("Mês/Ano", format="MM/YYYY"),
+                "IPCA": st.column_config.NumberColumn(
+                    "Índice IPCA",
+                    format="%.2f %%" # Formatação de Porcentagem
+                ),
+                "TARIFA": st.column_config.NumberColumn(
+                    "Média Nacional (Capitais)",
+                    format="R$ %.2f",
+                    help="Média aritmética das tarifas das capitais selecionadas neste mês"
+                )
+            }
+        )
+        
+        csv_ipca = df_ipca.to_csv(index=False).encode('utf-8')
+        st.download_button("📥 Baixar CSV (Economia)", data=csv_ipca, file_name="ipca_tarifas.csv", mime="text/csv")
